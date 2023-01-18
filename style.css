@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Rick';
+    src: url(/font/get_schwifty.ttf);
+}
+
+body{
+    background-image: url(/backgggg);
+    background-size: cover;
+    font-family: monospace;
+    width: 100%;
+    height: 7vh;
+
+
+}
+
+nav {
+    display: inline;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+
+
+
+}
+li{
+    display: inline;
+    color: rgb(105, 173, 83);
+    letter-spacing: 2px;
+    gap: 15px;
+    list-style: none;
+    margin: 32px;
+    font-family: 'Rick', monospace;
+    font-size: 24px;
+    text-decoration: none; 
+}
+ul{
+    gap: 16px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-decoration: none;
+
+}
+li:hover {
+    opacity: 0.5;
+    font-size: 29px;
+    border-radius: 5px;
+    transition: all .6s ease-in-out;
+
+}
+
+h1:hover {
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 55px;
+    transition: all .5s ease-in-out;
+}
+
+
+img{
+    width: 450px;
+    border-radius: 20px;
+
+
+}
+img:hover {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    width: 455px;
+    border-radius: 20px;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "article article"
+    "szoveg1 section";
+
+
+
+}
+
+article {
+    margin-right: 180px;
+    margin-left: 180px;
+    display: inline block;
+    margin-top: 20px;
+    padding-left: 90px;
+    justify-content: center;
+
+}
+
+
+
+
+footer {
+    color: black;
+    text-align: center;
+    height: 3vh;
+    margin-bottom: 0px;
+    font-family: 'Rick',monospace;
+    font-size: 60px;
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Rick', monospace;
+    font-size: 50px;
+    text-decoration: none;
+    
+
+
+}
+h2 {
+    justify-content: center;
+    padding-left: 450px;
+
+
+}
+
+
+
+h3 {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(105, 173, 83);
+    background-color: black;
+    text-align: justify;
+    width: 1200px;
+    padding-left: 120px;
+    border-radius: 10px;
+
+}
